@@ -1,7 +1,7 @@
 ---
 title: "Data Curation and Visualization using the Tidyverse"
 author: "Paul Parker"
-date: "October 25, 2021"
+date: "September 29, 2022"
 output:
   revealjs::revealjs_presentation: 
     theme: serif
@@ -22,7 +22,7 @@ https://github.com/paparker/Data_Curation_and_Viz
 
 The `tidyverse` is a group of packages in the R ecosystem that offer an alternative way to handle and work with data. Some of these packages are 
 
-* `reader` for reading and writing data
+* `readr` for reading and writing data
 * `tidyr` for creating tidy data frames
 * `dplyr` for manipulating data
 * `ggplot2` for data visualization
