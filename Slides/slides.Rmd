@@ -1,7 +1,7 @@
 ---
 title: "Data Curation and Visualization using the Tidyverse"
 author: "Paul Parker"
-date: "September 29, 2022"
+date: "September 29, 2021"
 output:
   revealjs::revealjs_presentation: 
     theme: serif
@@ -202,9 +202,7 @@ comps %>% pivot_wider(names_from=Quarter, values_from=EPS)
 </div>
 </div>
 
-##################
-##### GGPLOT #####
-##################
+
 
 
 
@@ -523,6 +521,26 @@ animate(p1)
 ## Animations (cont.)
 ![](animap.gif)
 
+
+
+## Shiny
+
+
+```{r, echo=F}
+#| echo: false
+knitr::include_url({"https://gallery.shinyapps.io/083-front-page/"})
+```
+
+
+
+## Shiny Example
+
+```{r, echo=F}
+#| echo: false
+knitr::include_url({"https://paparker.shinyapps.io/shape_app/"})
+```
+
+https://paparker.shinyapps.io/shape_app/
 
 ## Thank you!
 
